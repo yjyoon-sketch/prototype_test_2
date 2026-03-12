@@ -27,7 +27,7 @@ npm install @teamsparta/stack-* --legacy-peer-deps
 - `@teamsparta/stack-custom-modal` — 모달 (CustomModal.Root/Content/Header/Body/Footer/Button)
 - `@teamsparta/stack-bottom-sheet` — 바텀시트 (BottomSheet.Root/Content/Header/Body/Footer/Button/ButtonGroup). vaul 기반, Radix ScrollArea 내장.
 - `@teamsparta/stack-checkbox` — 체크박스 (Checkbox.Root/Control/Label)
-- `@teamsparta/stack-button` — 버튼 (Button, TextButton, IconButton). Button `colorScheme`: primary/secondary/tertiary/error
+- `@teamsparta/stack-button` — 버튼 (Button, TextButton, IconButton). Button `colorScheme`: primary/secondary/tertiary/error. **TextButton은 `colorScheme` 미지원**, `variant: "link" | "default"`만 사용 가능
 - `@teamsparta/stack-text` — 텍스트 (Text as polymorphic component)
 - `@teamsparta/stack-tokens` — 디자인 토큰 (`vars` 객체로 색상/간격 참조)
 - `@teamsparta/stack-core` — StackProvider (테마/반응형 컨텍스트 제공)
